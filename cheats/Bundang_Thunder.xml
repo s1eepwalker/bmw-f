@@ -6,7 +6,7 @@
  분당번개가 힘들게 제작한 파일입니다.
  무료로 배포해 드리지만, 원작자는 바꾸지 말아 주세요.
  제작하느라 많이 힘들었습니다.
- 
+
 -->
 
 	<!--분당번개S15A-->
@@ -21,7 +21,7 @@
     				<function start="3" end="3" mask="00000001b" comment="SBR_PreWarning_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고등 삭제"> 
+		<code description="동반자석 안전벨트 경고등 삭제">
    			<group id="3001">
     				<function start="4" end="4" mask="00000001b" comment="SBR_PreWarning_Beifahrer">00</function>
    			</group>
@@ -31,7 +31,7 @@
     				<function start="1" end="1" mask="00000001b" comment="SeatBeltReminder_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고음 삭제"> 
+		<code description="동반자석 안전벨트 경고음 삭제">
    			<group id="3001">
     				<function start="2" end="2" mask="00000001b" comment="SeatBeltReminder_Beifahrer">00</function>
    			</group>
@@ -69,7 +69,7 @@
 			<group id="3110">
 				<function start="1" end="1" mask="11111111b" comment="ASP_BORDSTEINAUTOMATIK_DELTA">1E</function>
 			</group>
-		</code>		
+		</code>
 		<code description="차량문 잠금 속도 : 시속 16km">
 			<group id="3040">
 				<function start="11" end="11" mask="11111111b" comment="VAM_SPEED_LIMIT_PIA_AUTO_LOCK">10</function>
@@ -455,12 +455,12 @@
     				<function start="0" end="0" mask="00000010b" comment="MEMORY_OFF">01</function>
    			</group>
 		</code>
-		<code description="Auto 눌러도 에어컨 안 켜지게"> 
+		<code description="Auto 눌러도 에어컨 안 켜지게">
    			<group id="3003">
     				<function start="0" end="0" mask="00000100b" comment="AC_ON_WITH_AUTO">00</function>
    			</group>
 		</code>
-		<code description="공조 순환 모드 기억"> 
+		<code description="공조 순환 모드 기억">
    			<group id="3003">
     				<function start="0" end="0" mask="00000001b" comment="MEMORY_UMLUFT">01</function>
    			</group>
@@ -475,97 +475,97 @@
     				<function start="44" end="44" mask="10000000b" comment="HUD_VZA_ENABLE">01</function>
    			</group>
 		</code>
-		<code description="계기판에 로고 : 없음"> 
+		<code description="계기판에 로고 : 없음">
    			<group id="3001">
     				<function start="18" end="18" mask="11111111b" comment="LOGO_SCHRIFTZUG">00</function>
    			</group>
 		</code>
-		<code description="계기판에 로고 : e-drive"> 
+		<code description="계기판에 로고 : e-drive">
    			<group id="3001">
     				<function start="18" end="18" mask="11111111b" comment="LOGO_SCHRIFTZUG">01</function>
    			</group>
 		</code>
-		<code description="계기판에 로고 : msp"> 
+		<code description="계기판에 로고 : msp">
    			<group id="3001">
     				<function start="18" end="18" mask="11111111b" comment="LOGO_SCHRIFTZUG">02</function>
    			</group>
 		</code>
-		<code description="계기판에 로고 : m550i"> 
+		<code description="계기판에 로고 : m550i">
    			<group id="3001">
     				<function start="18" end="18" mask="11111111b" comment="LOGO_SCHRIFTZUG">03</function>
    			</group>
 		</code>
-		<code description="계기판에 로고 : m550d"> 
+		<code description="계기판에 로고 : m550d">
    			<group id="3001">
     				<function start="18" end="18" mask="11111111b" comment="LOGO_SCHRIFTZUG">04</function>
    			</group>
 		</code>
-		<code description="계기판에 로고 : m40d"> 
+		<code description="계기판에 로고 : m40d">
    			<group id="3001">
     				<function start="18" end="18" mask="11111111b" comment="LOGO_SCHRIFTZUG">05</function>
    			</group>
 		</code>
-		<code description="계기판에 로고 : m760i"> 
+		<code description="계기판에 로고 : m760i">
    			<group id="3001">
     				<function start="18" end="18" mask="11111111b" comment="LOGO_SCHRIFTZUG">06</function>
    			</group>
 		</code>
-		<code description="계기판에 로고 : m760li"> 
+		<code description="계기판에 로고 : m760li">
    			<group id="3001">
     				<function start="18" end="18" mask="11111111b" comment="LOGO_SCHRIFTZUG">07</function>
    			</group>
 		</code>
-		<code description="계기판에 로고 : b7_biturbo"> 
+		<code description="계기판에 로고 : b7_biturbo">
    			<group id="3001">
     				<function start="18" end="18" mask="11111111b" comment="LOGO_SCHRIFTZUG">08</function>
    			</group>
 		</code>
-		<code description="계기판에 로고 : b7"> 
+		<code description="계기판에 로고 : b7">
    			<group id="3001">
     				<function start="18" end="18" mask="11111111b" comment="LOGO_SCHRIFTZUG">09</function>
    			</group>
 		</code>
-		<code description="계기판에 로고 : b6_biturbo"> 
+		<code description="계기판에 로고 : b6_biturbo">
    			<group id="3001">
     				<function start="18" end="18" mask="11111111b" comment="LOGO_SCHRIFTZUG">0A</function>
    			</group>
 		</code>
-		<code description="계기판에 로고 : b6"> 
+		<code description="계기판에 로고 : b6">
    			<group id="3001">
     				<function start="18" end="18" mask="11111111b" comment="LOGO_SCHRIFTZUG">0B</function>
    			</group>
 		</code>
-		<code description="계기판에 로고 : b5_biturbo"> 
+		<code description="계기판에 로고 : b5_biturbo">
    			<group id="3001">
     				<function start="18" end="18" mask="11111111b" comment="LOGO_SCHRIFTZUG">0C</function>
    			</group>
 		</code>
-		<code description="계기판에 로고 : d5_biturbo"> 
+		<code description="계기판에 로고 : d5_biturbo">
    			<group id="3001">
     				<function start="18" end="18" mask="11111111b" comment="LOGO_SCHRIFTZUG">0D</function>
    			</group>
 		</code>
-		<code description="계기판에 로고 : xd3_biturbo"> 
+		<code description="계기판에 로고 : xd3_biturbo">
    			<group id="3001">
     				<function start="18" end="18" mask="11111111b" comment="LOGO_SCHRIFTZUG">0E</function>
    			</group>
 		</code>
-		<code description="계기판에 로고 : m750_ld"> 
+		<code description="계기판에 로고 : m750_ld">
    			<group id="3001">
     				<function start="18" end="18" mask="11111111b" comment="LOGO_SCHRIFTZUG">0F</function>
    			</group>
 		</code>
-		<code description="계기판에 로고 : m750_d"> 
+		<code description="계기판에 로고 : m750_d">
    			<group id="3001">
     				<function start="18" end="18" mask="11111111b" comment="LOGO_SCHRIFTZUG">10</function>
    			</group>
 		</code>
-		<code description="계기판에 로고 : v12"> 
+		<code description="계기판에 로고 : v12">
    			<group id="3001">
     				<function start="18" end="18" mask="11111111b" comment="LOGO_SCHRIFTZUG">11</function>
    			</group>
 		</code>
-		<code description="계기판에 나침반 표시"> 
+		<code description="계기판에 나침반 표시">
    			<group id="3000">
     				<function start="89" end="89" mask="10000000b" comment="KOMPASS_ENABLE">01</function>
    			</group>
@@ -743,7 +743,7 @@
     				<function start="3" end="3" mask="00000001b" comment="SBR-Prewarning_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고등 삭제"> 
+		<code description="동반자석 안전벨트 경고등 삭제">
    			<group id="3001">
     				<function start="4" end="4" mask="00000010b" comment="SBR-Prewarning_Beifahrer">00</function>
    			</group>
@@ -753,7 +753,7 @@
     				<function start="1" end="1" mask="000000010b" comment="SeatBeltReminder_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고음 삭제"> 
+		<code description="동반자석 안전벨트 경고음 삭제">
    			<group id="3001">
     				<function start="2" end="2" mask="00000001b" comment="SeatBeltReminder_Beifahrer">00</function>
    			</group>
@@ -765,7 +765,7 @@
     				<function start="26" end="26" mask="00000001b" comment="WB_GB_ENABLE">01</function>
    			</group>
 		</code>
-		<code description="시동끄면 오디오 꺼짐"> 
+		<code description="시동끄면 오디오 꺼짐">
    			<group id="3020">
     				<function start="9" end="9" mask="00000001b" comment="TCM_LOGIC_R_OFF_DOOR">01</function>
    			</group>
@@ -810,7 +810,7 @@
 			<group id="3110">
 				<function start="1" end="1" mask="11111111b" comment="ASP_BORDSTEINAUTOMATIK_DELTA">1E</function>
 			</group>
-		</code>		
+		</code>
  	</cafd>
 	<cafd id="00000DED" name="HU_NBT" author="분당번개 i3" series="I001">
 		<code description="시간 자동설정                                                                                         --**  by 분당번개 ^^">
@@ -892,12 +892,12 @@
     				<function start="0" end="0" mask="00000010b" comment="MEMORY_OFF">01</function>
    			</group>
 		</code>
-		<code description="Auto 눌러도 에어컨 안 켜지게"> 
+		<code description="Auto 눌러도 에어컨 안 켜지게">
    			<group id="3003">
     				<function start="0" end="0" mask="00000100b" comment="AC_ON_WITH_AUTO">00</function>
    			</group>
 		</code>
-		<code description="공조 순환 모드 기억"> 
+		<code description="공조 순환 모드 기억">
    			<group id="3003">
     				<function start="0" end="0" mask="00000001b" comment="MEMORY_UMLUFT">01</function>
    			</group>
@@ -916,7 +916,7 @@
     				<function start="3" end="3" mask="00000001b" comment="SBR-Prewarning_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고등 삭제"> 
+		<code description="동반자석 안전벨트 경고등 삭제">
    			<group id="3001">
     				<function start="4" end="4" mask="00000010b" comment="SBR-Prewarning_Beifahrer">00</function>
    			</group>
@@ -926,7 +926,7 @@
     				<function start="1" end="1" mask="000000010b" comment="SeatBeltReminder_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고음 삭제"> 
+		<code description="동반자석 안전벨트 경고음 삭제">
    			<group id="3001">
     				<function start="2" end="2" mask="00000001b" comment="SeatBeltReminder_Beifahrer">00</function>
    			</group>
@@ -939,17 +939,17 @@
     				<function start="1" end="1" mask="11111111b" comment="Engine">0A</function>
    			</group>
 		</code>
-		<code description="ASD 오디오 레벨"> 
+		<code description="ASD 오디오 레벨">
    			<group id="3000">
     				<function start="2" end="2" mask="11111111b" comment="Audio Level">01</function>
    			</group>
 		</code>
-		<code description="ASD 파워 클래스 가장 크게"> 
+		<code description="ASD 파워 클래스 가장 크게">
    			<group id="3000">
     				<function start="3" end="3" mask="11111111b" comment="Power Class">03</function>
    			</group>
 		</code>
-		<code description="ASD 파워 클래스 중간"> 
+		<code description="ASD 파워 클래스 중간">
    			<group id="3000">
     				<function start="3" end="3" mask="11111111b" comment="Power Class">00</function>
    			</group>
@@ -971,7 +971,7 @@
 				<function start="0" end="0" mask="00100000b" comment="TCM_MSA_MEMORY">01</function>
 			</group>
 		</code>
-		<code description="시동끄면 오디오 꺼짐"> 
+		<code description="시동끄면 오디오 꺼짐">
    			<group id="3020">
     				<function start="9" end="9" mask="00000001b" comment="TCM_LOGIC_R_OFF_DOOR">01</function>
    			</group>
@@ -1062,7 +1062,7 @@
 			<group id="3110">
 				<function start="1" end="1" mask="11111111b" comment="ASP_BORDSTEINAUTOMATIK_DELTA">1E</function>
 			</group>
-		</code>		
+		</code>
  	</cafd>
 	<cafd id="00001EF6" name="HU_NBT_EVO" author="분당번개 미니" series="F64,F55,F56,F57,F45">
 		<code description="시간 자동설정                                                                                         --**  by 분당번개 ^^">
@@ -1230,7 +1230,7 @@
     				<function start="9" end="9" mask="00001111b" comment="BMW_LOGO">00</function>
    			</group>
 		</code>
-		<code description="계기판에 디지털 속도"> 
+		<code description="계기판에 디지털 속도">
    			<group id="3000">
     				<function start="1" end="1" mask="00000010b" comment="BC_DIGITAL_V">01</function>
    			</group>
@@ -1333,7 +1333,7 @@
     				<function start="16" end="16" mask="00000001b" comment="SBR_PreWarning_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고등 삭제"> 
+		<code description="동반자석 안전벨트 경고등 삭제">
    			<group id="3000">
     				<function start="16" end="16" mask="00000010b" comment="SBR_PreWarning_Beifahrer">00</function>
    			</group>
@@ -1343,7 +1343,7 @@
     				<function start="15" end="15" mask="00000010b" comment="SeatBeltReminder_SBR_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고음 삭제"> 
+		<code description="동반자석 안전벨트 경고음 삭제">
    			<group id="3000">
     				<function start="15" end="15" mask="00000100b" comment="SeatBeltReminder_SBR_Beifahrer">00</function>
    			</group>
@@ -1370,7 +1370,7 @@
 		</code>
 	</cafd>
 	<cafd id="00000794" name="FEM_01" author="분당번개 1시리즈" series="F20,F21,F22,F23,F30,F31,F32,F33,F3,F34,F35,F36,F80,F82,F83">
-		<code description="급브레이크에 비상등"> 
+		<code description="급브레이크에 비상등">
    			<group id="3060">
     				<function start="26" end="26" mask="00000001b" comment="WB_GB_ENABLE">01</function>
    			</group>
@@ -1385,7 +1385,7 @@
 				<function start="0" end="0" mask="00100000b" comment="TCM_MSA_MEMORY">01</function>
 			</group>
 		</code>
-		<code description="시동끄면 오디오 꺼짐"> 
+		<code description="시동끄면 오디오 꺼짐">
    			<group id="3020">
     				<function start="1" end="1" mask="00000001b" comment="TCM_LOGIC_R_OFF_DOOR">01</function>
    			</group>
@@ -1476,7 +1476,7 @@
 			<group id="3110">
 				<function start="2" end="2" mask="11111111b" comment="ASP_BORDSTEINAUTOMATIK_DELTA">1E</function>
 			</group>
-		</code>		
+		</code>
  	</cafd>
 	<cafd id="00000DED" name="HU_NBT" author="분당번개 1시리즈" series="F20,F21,F22,F23,F30,F31,F32,F33,F3,F34,F35,F36,F80,F82,F83">
 		<code description="시간 자동설정                                                                                         --**  by 분당번개 ^^">
@@ -1623,7 +1623,7 @@
 	</cafd>
 	<cafd id="0000067B" name="ICMQL" author="분당번개 1시리즈" series="F20,F21,F22,F23,F30,F31,F32,F33,F3,F34,F35,F36,F80,F82,F83">
 		<code description="시동시 기본으로 에코모드                                                                              --**  by 분당번개 ^^">
-			<group id="3000">   
+			<group id="3000">
 				<function start="36" end="36" mask="00001000b" comment="IcmKod_B_InitEco">verbaut</function>
 			</group>
 		</code>
@@ -1644,19 +1644,19 @@
     				<function start="0" end="0" mask="00000010b" comment="MEMORY_OFF">01</function>
    			</group>
 		</code>
-		<code description="Auto 눌러도 에어컨 안 켜지게"> 
+		<code description="Auto 눌러도 에어컨 안 켜지게">
    			<group id="3003">
     				<function start="0" end="0" mask="00000100b" comment="AC_ON_WITH_AUTO">00</function>
    			</group>
 		</code>
-		<code description="공조 순환 모드 기억"> 
+		<code description="공조 순환 모드 기억">
    			<group id="3003">
     				<function start="0" end="0" mask="00000001b" comment="MEMORY_UMLUFT">01</function>
    			</group>
 		</code>
  	</cafd>
 	<cafd id="00001148" name="KAFAS2" author="분당번개 1시리즈" series="F20,F21,F22,F23,F30,F31,F32,F33,F3,F34,F35,F36,F80,F82,F83">
-		<code description="자동 하이빔 어시스턴트"> 
+		<code description="자동 하이빔 어시스턴트">
    			<group id="3050">
     				<function start="1" end="1" mask="00000001b" comment="FLA_ON_OFF">FLA_on</function>
     				<function start="6" end="6" mask="11111111b" comment="SPEED_SWITCHING_HIGH_BEAMS_ON">CN</function>
@@ -1670,7 +1670,7 @@
     				<function start="0" end="0" mask="11110000b" comment="BMW_LOGO">mpm</function>
    			</group>
 		</code>
-		<code description="계기판에 디지털 속도"> 
+		<code description="계기판에 디지털 속도">
    			<group id="3000">
     				<function start="1" end="1" mask="00000010b" comment="BC_DIGITAL_V">01</function>
    			</group>
@@ -1782,7 +1782,7 @@
     				<function start="3" end="3" mask="00000001b" comment="SBR-Prewarning_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고등 삭제"> 
+		<code description="동반자석 안전벨트 경고등 삭제">
    			<group id="3001">
     				<function start="4" end="4" mask="00000001b" comment="SBR-Prewarning_Beifahrer">00</function>
    			</group>
@@ -1792,7 +1792,7 @@
     				<function start="1" end="1" mask="00000001b" comment="SeatBeltReminder_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고음 삭제"> 
+		<code description="동반자석 안전벨트 경고음 삭제">
    			<group id="3000">
     				<function start="2" end="2" mask="00000001b" comment="SeatBeltReminder_Beifahrer">00</function>
    			</group>
@@ -1807,7 +1807,7 @@
 	</cafd>
 	<cafd id="0000114B" name="GSAW01" author="분당번개 2시리즈" series="F64,F55,F56,F57,F45">
 		<code description="런치 컨트롤 활성(DSC도 함께 활성)                                                                     --**  by 분당번개 ^^">
-			<group id="3000">  
+			<group id="3000">
 				<function start="1" end="1" mask="10000000b" comment="LC">01</function>
 			</group>
 		</code>
@@ -1828,7 +1828,7 @@
 				<function start="0" end="0" mask="00100000b" comment="TCM_MSA_MEMORY">01</function>
 			</group>
 		</code>
-		<code description="시동끄면 오디오 꺼짐"> 
+		<code description="시동끄면 오디오 꺼짐">
    			<group id="3020">
     				<function start="9" end="9" mask="00000001b" comment="TCM_LOGIC_R_OFF_DOOR">01</function>
    			</group>
@@ -1908,7 +1908,7 @@
 			<group id="3110">
 				<function start="1" end="1" mask="11111111b" comment="ASP_BORDSTEINAUTOMATIK_DELTA">1E</function>
 			</group>
-		</code>		
+		</code>
  	</cafd>
 	<cafd id="00000DED" name="HU_NBT" author="분당번개 2시리즈" series="F64,F55,F56,F57,F45">
 		<code description="시간 자동설정                                                                                         --**  by 분당번개 ^^">
@@ -2059,12 +2059,12 @@
     				<function start="0" end="0" mask="00000010b" comment="MEMORY_OFF">01</function>
    			</group>
 		</code>
-		<code description="Auto 눌러도 에어컨 안 켜지게"> 
+		<code description="Auto 눌러도 에어컨 안 켜지게">
    			<group id="3003">
     				<function start="0" end="0" mask="00000100b" comment="AC_ON_WITH_AUTO">00</function>
    			</group>
 		</code>
-		<code description="공조 순환 모드 기억"> 
+		<code description="공조 순환 모드 기억">
    			<group id="3003">
     				<function start="0" end="0" mask="00000001b" comment="MEMORY_UMLUFT">01</function>
    			</group>
@@ -2085,7 +2085,7 @@
     				<function start="0" end="0" mask="11110000b" comment="BMW_LOGO">mpm</function>
    			</group>
 		</code>
-		<code description="계기판에 디지털 속도"> 
+		<code description="계기판에 디지털 속도">
    			<group id="3000">
     				<function start="1" end="1" mask="00000010b" comment="BC_DIGITAL_V">01</function>
    			</group>
@@ -2195,7 +2195,7 @@
     				<function start="16" end="16" mask="00000001b" comment="SBR_PreWarning_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고등 삭제"> 
+		<code description="동반자석 안전벨트 경고등 삭제">
    			<group id="3000">
     				<function start="16" end="16" mask="00000010b" comment="SBR_PreWarning_Beifahrer">00</function>
    			</group>
@@ -2205,7 +2205,7 @@
     				<function start="15" end="15" mask="00000010b" comment="SeatBeltReminder_SBR_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고음 삭제"> 
+		<code description="동반자석 안전벨트 경고음 삭제">
    			<group id="3000">
     				<function start="15" end="15" mask="00000100b" comment="SeatBeltReminder_SBR_Beifahrer">00</function>
    			</group>
@@ -2218,17 +2218,17 @@
     				<function start="1" end="1" mask="11111111b" comment="Engine">0A</function>
    			</group>
 		</code>
-		<code description="ASD 오디오 레벨"> 
+		<code description="ASD 오디오 레벨">
    			<group id="3000">
     				<function start="2" end="2" mask="11111111b" comment="Audio Level">01</function>
    			</group>
 		</code>
-		<code description="ASD 파워 클래스 가장 크게"> 
+		<code description="ASD 파워 클래스 가장 크게">
    			<group id="3000">
     				<function start="3" end="3" mask="11111111b" comment="Power Class">03</function>
    			</group>
 		</code>
-		<code description="ASD 파워 클래스 중간"> 
+		<code description="ASD 파워 클래스 중간">
    			<group id="3000">
     				<function start="3" end="3" mask="11111111b" comment="Power Class">00</function>
    			</group>
@@ -2270,7 +2270,7 @@
 				<function start="0" end="0" mask="00100000b" comment="TCM_MSA_MEMORY">01</function>
 			</group>
 		</code>
-		<code description="시동끄면 오디오 꺼짐"> 
+		<code description="시동끄면 오디오 꺼짐">
    			<group id="3020">
     				<function start="1" end="1" mask="00000001b" comment="TCM_LOGIC_R_OFF_DOOR">01</function>
    			</group>
@@ -2361,7 +2361,7 @@
 			<group id="3110">
 				<function start="1" end="1" mask="11111111b" comment="ASP_BORDSTEINAUTOMATIK_DELTA">1E</function>
 			</group>
-		</code>		
+		</code>
  	</cafd>
 	<cafd id="00000DED" name="HU_NBT" author="분당번개 3시리즈" series="F20,F21,F22,F23,F30,F31,F32,F33,F3,F34,F35,F36,F80,F82,F83">
 		<code description="시간 자동설정                                                                                         --**  by 분당번개 ^^">
@@ -2529,12 +2529,12 @@
     				<function start="0" end="0" mask="00000010b" comment="MEMORY_OFF">01</function>
    			</group>
 		</code>
-		<code description="Auto 눌러도 에어컨 안 켜지게"> 
+		<code description="Auto 눌러도 에어컨 안 켜지게">
    			<group id="3003">
     				<function start="0" end="0" mask="00000100b" comment="AC_ON_WITH_AUTO">00</function>
    			</group>
 		</code>
-		<code description="공조 순환 모드 기억"> 
+		<code description="공조 순환 모드 기억">
    			<group id="3003">
     				<function start="0" end="0" mask="00000001b" comment="MEMORY_UMLUFT">01</function>
    			</group>
@@ -2568,7 +2568,7 @@
 				<function start="5" end="5" mask="00000001b" comment="HUD_PIA_BLINKER">01</function>
 			</group>
 		</code>
-		<code description="계기판에 로고 표시"> 
+		<code description="계기판에 로고 표시">
    			<group id="3003">
     				<function start="7" end="7" mask="00000010b" comment="MPM_ENABLE">01</function>
    			</group>
@@ -2577,7 +2577,7 @@
     				<function start="0" end="0" mask="00001111b" comment="BMW_LOGO">mpm</function>
    			</group>
 		</code>
-		<code description="계기판에 디지털 속도"> 
+		<code description="계기판에 디지털 속도">
    			<group id="3000">
     				<function start="1" end="1" mask="00000010b" comment="BC_DIGITAL_V">01</function>
    			</group>
@@ -2695,7 +2695,7 @@
     				<function start="16" end="16" mask="00000001b" comment="SBR_PreWarning_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고등 삭제"> 
+		<code description="동반자석 안전벨트 경고등 삭제">
    			<group id="3000">
     				<function start="16" end="16" mask="00000010b" comment="SBR_PreWarning_Beifahrer">00</function>
    			</group>
@@ -2705,7 +2705,7 @@
     				<function start="15" end="15" mask="00000010b" comment="SeatBeltReminder_SBR_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고음 삭제"> 
+		<code description="동반자석 안전벨트 경고음 삭제">
    			<group id="3000">
     				<function start="15" end="15" mask="00000100b" comment="SeatBeltReminder_SBR_Beifahrer">00</function>
    			</group>
@@ -2718,17 +2718,17 @@
     				<function start="1" end="1" mask="11111111b" comment="Engine">0A</function>
    			</group>
 		</code>
-		<code description="ASD 오디오 레벨"> 
+		<code description="ASD 오디오 레벨">
    			<group id="3000">
     				<function start="2" end="2" mask="11111111b" comment="Audio Level">01</function>
    			</group>
 		</code>
-		<code description="ASD 파워 클래스 가장 크게"> 
+		<code description="ASD 파워 클래스 가장 크게">
    			<group id="3000">
     				<function start="3" end="3" mask="11111111b" comment="Power Class">03</function>
    			</group>
 		</code>
-		<code description="ASD 파워 클래스 중간"> 
+		<code description="ASD 파워 클래스 중간">
    			<group id="3000">
     				<function start="3" end="3" mask="11111111b" comment="Power Class">00</function>
    			</group>
@@ -2770,7 +2770,7 @@
 				<function start="0" end="0" mask="00100000b" comment="TCM_MSA_MEMORY">01</function>
 			</group>
 		</code>
-		<code description="시동끄면 오디오 꺼짐"> 
+		<code description="시동끄면 오디오 꺼짐">
    			<group id="3020">
     				<function start="1" end="1" mask="00000001b" comment="TCM_LOGIC_R_OFF_DOOR">01</function>
    			</group>
@@ -2861,7 +2861,7 @@
 			<group id="3110">
 				<function start="1" end="1" mask="11111111b" comment="ASP_BORDSTEINAUTOMATIK_DELTA">1E</function>
 			</group>
-		</code>		
+		</code>
  	</cafd>
 	<cafd id="00000DED" name="HU_NBT" author="분당번개 4시리즈" series="F20,F21,F22,F23,F30,F31,F32,F33,F3,F34,F35,F36,F80,F82,F83">
 		<code description="시간 자동설정                                                                                         --**  by 분당번개 ^^">
@@ -3029,12 +3029,12 @@
     				<function start="0" end="0" mask="00000010b" comment="MEMORY_OFF">01</function>
    			</group>
 		</code>
-		<code description="Auto 눌러도 에어컨 안 켜지게"> 
+		<code description="Auto 눌러도 에어컨 안 켜지게">
    			<group id="3003">
     				<function start="0" end="0" mask="00000100b" comment="AC_ON_WITH_AUTO">00</function>
    			</group>
 		</code>
-		<code description="공조 순환 모드 기억"> 
+		<code description="공조 순환 모드 기억">
    			<group id="3003">
     				<function start="0" end="0" mask="00000001b" comment="MEMORY_UMLUFT">01</function>
    			</group>
@@ -3068,7 +3068,7 @@
 				<function start="5" end="5" mask="00000001b" comment="HUD_PIA_BLINKER">01</function>
 			</group>
 		</code>
-		<code description="계기판에 로고 표시"> 
+		<code description="계기판에 로고 표시">
    			<group id="3003">
     				<function start="7" end="7" mask="00000100b" comment="MPM_ENABLE">01</function>
    			</group>
@@ -3077,7 +3077,7 @@
     				<function start="0" end="0" mask="11110000b" comment="BMW_LOGO">m_performance</function>
    			</group>
 		</code>
-		<code description="계기판에 디지털 속도"> 
+		<code description="계기판에 디지털 속도">
    			<group id="3000">
     				<function start="1" end="1" mask="00000010b" comment="BC_DIGITAL_V">01</function>
    			</group>
@@ -3195,7 +3195,7 @@
     				<function start="16" end="16" mask="00000001b" comment="SBR_PreWarning_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고등 삭제"> 
+		<code description="동반자석 안전벨트 경고등 삭제">
    			<group id="3000">
     				<function start="16" end="16" mask="00000010b" comment="SBR_PreWarning_Beifahrer">00</function>
    			</group>
@@ -3205,7 +3205,7 @@
     				<function start="15" end="15" mask="00000010b" comment="SeatBeltReminder_SBR_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고음 삭제"> 
+		<code description="동반자석 안전벨트 경고음 삭제">
    			<group id="3000">
     				<function start="15" end="15" mask="00000100b" comment="SeatBeltReminder_SBR_Beifahrer">00</function>
    			</group>
@@ -3218,17 +3218,17 @@
     				<function start="1" end="1" mask="11111111b" comment="Engine">01</function>
    			</group>
 		</code>
-		<code description="ASD 오디오 레벨"> 
+		<code description="ASD 오디오 레벨">
    			<group id="3000">
     				<function start="2" end="2" mask="11111111b" comment="Audio Level">01</function>
    			</group>
 		</code>
-		<code description="ASD 파워 클래스 가장 크게"> 
+		<code description="ASD 파워 클래스 가장 크게">
    			<group id="3000">
     				<function start="3" end="3" mask="11111111b" comment="Power Class">03</function>
    			</group>
 		</code>
-		<code description="ASD 파워 클래스 중간"> 
+		<code description="ASD 파워 클래스 중간">
    			<group id="3000">
     				<function start="3" end="3" mask="11111111b" comment="Power Class">00</function>
    			</group>
@@ -3638,12 +3638,12 @@
     				<function start="5" end="5" mask="00010000b" comment="OFF_MEMORY">01</function>
    			</group>
 		</code>
-		<code description="Auto 눌러도 에어컨 안 켜지게"> 
+		<code description="Auto 눌러도 에어컨 안 켜지게">
    			<group id="3000">
     				<function start="5" end="5" mask="00001000b" comment="AC_NICHT_EIN_BEI_AUTO">01</function>
    			</group>
 		</code>
-		<code description="공조 순환 모드 기억"> 
+		<code description="공조 순환 모드 기억">
    			<group id="3000">
     				<function start="0" end="0" mask="00000100b" comment="MEMORY_UMLUFT">01</function>
    			</group>
@@ -3689,7 +3689,7 @@
 				<function start="5" end="5" mask="00000001b" comment="HUD_PIA_BLINKER">01</function>
 			</group>
 		</code>
-		<code description="계기판에 M Performance 로고 표시"> 
+		<code description="계기판에 M Performance 로고 표시">
    			<group id="3003">
     				<function start="3" end="3" mask="00000010b" comment="MPM_ENABLE">01</function>
    			</group>
@@ -3698,7 +3698,7 @@
     				<function start="44" end="44" mask="00001111b" comment="BMW_LOGO">mpm</function>
    			</group>
 		</code>
-		<code description="계기판에 550D 로고 표시"> 
+		<code description="계기판에 550D 로고 표시">
    			<group id="3003">
     				<function start="3" end="3" mask="00000010b" comment="MPM_ENABLE">01</function>
    			</group>
@@ -3707,7 +3707,7 @@
     				<function start="44" end="44" mask="00001111b" comment="BMW_LOGO">mpm</function>
    			</group>
 		</code>
-		<code description="계기판에 나침반 표시"> 
+		<code description="계기판에 나침반 표시">
    			<group id="3003">
     				<function start="12" end="12" mask="00010000b" comment="KOMPASS_GRAPH_ENABLE">01</function>
    			</group>
@@ -3902,7 +3902,7 @@
     				<function start="16" end="16" mask="00000001b" comment="SBR_PreWarning_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고등 삭제"> 
+		<code description="동반자석 안전벨트 경고등 삭제">
    			<group id="3000">
     				<function start="16" end="16" mask="00000010b" comment="SBR_PreWarning_Beifahrer">00</function>
    			</group>
@@ -3912,7 +3912,7 @@
     				<function start="15" end="15" mask="00000010b" comment="SeatBeltReminder_SBR_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고음 삭제"> 
+		<code description="동반자석 안전벨트 경고음 삭제">
    			<group id="3000">
     				<function start="15" end="15" mask="00000100b" comment="SeatBeltReminder_SBR_Beifahrer">00</function>
    			</group>
@@ -3954,7 +3954,7 @@
 				<function start="0" end="0" mask="00100000b" comment="TCM_MSA_MEMORY">01</function>
 			</group>
 		</code>
-		<code description="시동끄면 오디오 꺼짐"> 
+		<code description="시동끄면 오디오 꺼짐">
    			<group id="3020">
     				<function start="1" end="1" mask="00000001b" comment="TCM_LOGIC_R_OFF_DOOR">01</function>
    			</group>
@@ -4045,7 +4045,7 @@
 			<group id="3110">
 				<function start="2" end="2" mask="11111111b" comment="ASP_BORDSTEINAUTOMATIK_DELTA">1E</function>
 			</group>
-		</code>		
+		</code>
  	</cafd>
 	<cafd id="0000157F" name="HKFM" author="분당번개 3GT" series="F20,F21,F22,F23,F30,F31,F32,F33,F3,F34,F35,F36,F80,F82,F83">
 		<code description="트렁크 자동 닫힘(풋웰스위치+리모컨)                                                                   --**  by 분당번개 ^^">
@@ -4109,7 +4109,7 @@
 				<function start="25" end="25" mask="11111111b" comment="SPEEDLOCK_X_KMH_MIN">3F</function>
 			</group>
 		</code>
-		<code description="주행 중 비디오/DMB/Navi 시청 2">			
+		<code description="주행 중 비디오/DMB/Navi 시청 2">
 			<group id="3000">
 				<function start="5" end="5" mask="00010000b" comment="VIDEO_FRONT_LOCKED">00</function>
 				<function start="5" end="5" mask="00000100b" comment="VIDEO_HANDBRAKE">00</function>
@@ -4262,16 +4262,16 @@
 	</cafd>
 	<cafd id="000016EE" name="IHKA_VA02" author="분당번개 3GT" series="F20,F21,F22,F23,F30,F31,F32,F33,F3,F34,F35,F36,F80,F82,F83">
 		<code description="에어컨 마지막 상태 기억                                                                               --**  by 분당번개 ^^">
-   			<group id="3003">  
+   			<group id="3003">
     				<function start="0" end="0" mask="00000010b" comment="MEMORY_OFF">01</function>
    			</group>
 		</code>
-		<code description="Auto 눌러도 에어컨 안 켜지게"> 
+		<code description="Auto 눌러도 에어컨 안 켜지게">
    			<group id="3003">
     				<function start="0" end="0" mask="00000100b" comment="AC_ON_WITH_AUTO">00</function>
    			</group>
 		</code>
-		<code description="공조 순환 모드 기억"> 
+		<code description="공조 순환 모드 기억">
    			<group id="3003">
     				<function start="0" end="0" mask="00000001b" comment="MEMORY_UMLUFT">01</function>
    			</group>
@@ -4304,7 +4304,7 @@
 				<function start="5" end="5" mask="00000001b" comment="HUD_PIA_BLINKER">01</function>
 			</group>
 		</code>
-		<code description="계기판에 로고 표시"> 
+		<code description="계기판에 로고 표시">
    			<group id="3003">
     				<function start="7" end="7" mask="00000010b" comment="MPM_ENABLE">01</function>
    			</group>
@@ -4313,7 +4313,7 @@
     				<function start="0" end="0" mask="00001111b" comment="BMW_LOGO">01</function>
    			</group>
 		</code>
-		<code description="계기판에 디지털 속도"> 
+		<code description="계기판에 디지털 속도">
    			<group id="3000">
     				<function start="1" end="1" mask="00000010b" comment="BC_DIGITAL_V">01</function>
    			</group>
@@ -4439,7 +4439,7 @@
     				<function start="16" end="16" mask="00000001b" comment="SBR_PreWarning_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고등 삭제"> 
+		<code description="동반자석 안전벨트 경고등 삭제">
    			<group id="3000">
     				<function start="16" end="16" mask="00000010b" comment="SBR_PreWarning_Beifahrer">00</function>
    			</group>
@@ -4449,7 +4449,7 @@
     				<function start="15" end="15" mask="00000010b" comment="SeatBeltReminder_SBR_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고음 삭제"> 
+		<code description="동반자석 안전벨트 경고음 삭제">
    			<group id="3000">
     				<function start="15" end="15" mask="00000100b" comment="SeatBeltReminder_SBR_Beifahrer">00</function>
    			</group>
@@ -4771,12 +4771,12 @@
     				<function start="5" end="5" mask="00010000b" comment="OFF_MEMORY">01</function>
    			</group>
 		</code>
-		<code description="Auto 눌러도 에어컨 안 켜지게"> 
+		<code description="Auto 눌러도 에어컨 안 켜지게">
    			<group id="3000">
     				<function start="5" end="5" mask="00001000b" comment="AC_NICHT_EIN_BEI_AUTO">01</function>
    			</group>
 		</code>
-		<code description="공조 순환 모드 기억"> 
+		<code description="공조 순환 모드 기억">
    			<group id="3000">
     				<function start="0" end="0" mask="00000100b" comment="MEMORY_UMLUFT">01</function>
    			</group>
@@ -4822,7 +4822,7 @@
 				<function start="5" end="5" mask="00000001b" comment="HUD_PIA_BLINKER">01</function>
 			</group>
 		</code>
-		<code description="계기판에 로고 표시"> 
+		<code description="계기판에 로고 표시">
    			<group id="3003">
     				<function start="3" end="3" mask="00000010b" comment="MPM_ENABLE">01</function>
    			</group>
@@ -4831,7 +4831,7 @@
     				<function start="44" end="44" mask="00001111b" comment="BMW_LOGO">mpm</function>
    			</group>
 		</code>
-		<code description="계기판에 나침반 표시"> 
+		<code description="계기판에 나침반 표시">
    			<group id="3003">
     				<function start="12" end="12" mask="00010000b" comment="KOMPASS_GRAPH_ENABLE">01</function>
    			</group>
@@ -5019,54 +5019,54 @@
 	<!-- End 분당번개F007-->
 	<!-- 분당번개F025-->
 	<cafd id="00000909" name="ACSM_4C" author="분당번개 X3" series="F15,F16,F25,F26,F48,F85,F86">
-		<code description="안전벨트 경고음 5초만                                                                                 --**  by 분당번개 ^^">
+		<code description="안전벨트 경고음 5초만  Сигнал ремня безопасности 5 секунд">
    			<group id="3000">
     				<function start="3" end="3" mask="11111111b" comment="GWF_SBR_WARNDAUER">05</function>
    			</group>
 		</code>
-		<code description="운전석 안전벨트 경고등 삭제"> 
+		<code description="운전석 안전벨트 경고등 삭제 Очистить сигнальную лампу ремня безопасности">
    			<group id="3000">
     				<function start="16" end="16" mask="00000001b" comment="SBR_PreWarning_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고등 삭제"> 
+		<code description="동반자석 안전벨트 경고등 삭제 Снять предупреждающие огни ремней безопасности спутника">
    			<group id="3000">
     				<function start="16" end="16" mask="00000010b" comment="SBR_PreWarning_Beifahrer">00</function>
    			</group>
 		</code>
-		<code description="운전석 안전벨트 경고음 삭제">
+		<code description="운전석 안전벨트 경고음 삭제 Прозрачный звуковой сигнал ремня безопасности">
    			<group id="3000">
     				<function start="15" end="15" mask="00000010b" comment="SeatBeltReminder_SBR_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고음 삭제"> 
+		<code description="동반자석 안전벨트 경고음 삭제 Снять звуковые сигналы ремней безопасности спутника">
    			<group id="3000">
     				<function start="15" end="15" mask="00000100b" comment="SeatBeltReminder_SBR_Beifahrer">00</function>
    			</group>
 		</code>
  	</cafd>
 	<cafd id="0000000F" name="CAS_04" author="분당번개 X3" series="F15,F16,F25,F26,F48,F85,F86">
-		<code description="시동끄고 오디오 자동 꺼짐                                                                             --**  by 분당번개 ^^">
+		<code description="시동끄고 오디오 자동 꺼짐  Выключить и отключить аудио">
 			<group id="30D0">
 				<function start="2" end="2" mask="111111!1b" comment="TC_LOGIC_KLR_OFF_DOOR">01</function>
 			</group>
 		</code>
-		<code description="차 시동 걸린 상태에서 문 잠그면 크락션 2회 울림-활성">
+		<code description="차 시동 걸린 상태에서 문 잠그면 크락션 2회 울림-활성 Блокировка двери при запуске автомобиля, звучание 2 раза - активная">
 			<group id="3002">
 				<function start="0" end="0" mask="00100000b" comment="CLM_HORN_AT_SECURE">01</function>
 			</group>
 		</code>
-		<code description="차 시동 걸린 상태에서 문 잠그면 크락션 2회 울림-비활성">
+		<code description="차 시동 걸린 상태에서 문 잠그면 크락션 2회 울림-비활성 Если вы запираете дверь во время запуска машины, она колеблется дважды. - Неактивно">
 			<group id="3002">
 				<function start="0" end="0" mask="00100000b" comment="CLM_HORN_AT_SECURE">00</function>
 			</group>
 		</code>
-		<code description="스탑앤고 기본으로 꺼지게">
+		<code description="스탑앤고 기본으로 꺼지게 старт стоп по дефолту выключен">
 			<group id="3000">
 				<function start="3" end="3" mask="00010000b" comment="TC_MSA_DEFAULT_OFF">01</function>
 			</group>
 		</code>
-		<code description="스탑앤고 마지막 상태 기억">
+		<code description="스탑앤고 마지막 상태 기억 память старт стоп">
 			<group id="3000">
 				<function start="3" end="3" mask="00100000b" comment="TC_MSA_MEMORY">01</function>
 			</group>
@@ -5095,7 +5095,7 @@
 				<function start="30" end="30" mask="00001100b" comment="WL_FUNKTION_AL">soft_on_LED</function>
 			</group>
 		</code>
-		<code description="급브레이크에 비상등 깜빡임"> 
+		<code description="급브레이크에 비상등 깜빡임">
    			<group id="3050">
     				<function start="2" end="2" mask="10000000b" comment="WB_GB_ENABLE">01</function>
    			</group>
@@ -5336,12 +5336,12 @@
     				<function start="0" end="0" mask="00000001b" comment="OFF_MEMORY">01</function>
    			</group>
 		</code>
-		<code description="Auto 눌러도 에어컨 안 켜지게"> 
+		<code description="Auto 눌러도 에어컨 안 켜지게">
    			<group id="3000">
     				<function start="18" end="18" mask="00100000b" comment="AC_NICHT_EIN_BEI_UMLUFT">01</function>
    			</group>
 		</code>
-		<code description="공조 순환 모드 기억"> 
+		<code description="공조 순환 모드 기억">
    			<group id="3000">
     				<function start="0" end="0" mask="00000010b" comment="UMLUFT_MEMORY">01</function>
    			</group>
@@ -5367,12 +5367,12 @@
     				<function start="7" end="7" mask="11111111b" comment="SPEED_SWITCHING_HIGH_BEAMS_OFF">China</function>
    			</group>
 		</code>
-		<code description="차선이탈 경고"> 
+		<code description="차선이탈 경고">
    			<group id="3020">
     				<function start="2" end="2" mask="00000011b" comment="FLA_ON_OFF">detection_for_grass_edge_and_curb_stone</function>
    			</group>
 		</code>
-		<code description="카메라만으로 스피드 리밋 인포 표시"> 
+		<code description="카메라만으로 스피드 리밋 인포 표시">
    			<group id="3010">
     				<function start="1" end="1" mask="10000000b" comment="COD_CAM_ONLY">camera_only</function>
    			</group>
@@ -5394,7 +5394,7 @@
 				<function start="5" end="5" mask="00000001b" comment="HUD_PIA_BLINKER">01</function>
 			</group>
 		</code>
-		<code description="계기판에 로고 표시"> 
+		<code description="계기판에 로고 표시">
    			<group id="3003">
     				<function start="9" end="9" mask="00000001b" comment="MPM_ENABLE">01</function>
    			</group>
@@ -5403,7 +5403,7 @@
     				<function start="53" end="53" mask="00001111b" comment="BMW_LOGO">mpm</function>
    			</group>
 		</code>
-		<code description="계기판에 나침반 표시"> 
+		<code description="계기판에 나침반 표시">
    			<group id="3003">
     				<function start="9" end="9" mask="01000000b" comment="KOMPASS_GRAPH_ENABLE">01</function>
    			</group>
@@ -5536,7 +5536,7 @@
     				<function start="16" end="16" mask="00000001b" comment="SBR_PreWarning_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고등 삭제"> 
+		<code description="동반자석 안전벨트 경고등 삭제">
    			<group id="3000">
     				<function start="16" end="16" mask="00000010b" comment="SBR_PreWarning_Beifahrer">00</function>
    			</group>
@@ -5546,7 +5546,7 @@
     				<function start="15" end="15" mask="00000010b" comment="SeatBeltReminder_SBR_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고음 삭제"> 
+		<code description="동반자석 안전벨트 경고음 삭제">
    			<group id="3000">
     				<function start="15" end="15" mask="00000100b" comment="SeatBeltReminder_SBR_Beifahrer">00</function>
    			</group>
@@ -5833,12 +5833,12 @@
     				<function start="5" end="5" mask="00010000b" comment="OFF_MEMORY">01</function>
    			</group>
 		</code>
-		<code description="Auto 눌러도 에어컨 안 켜지게"> 
+		<code description="Auto 눌러도 에어컨 안 켜지게">
    			<group id="3000">
     				<function start="5" end="5" mask="00001000b" comment="AC_NICHT_EIN_BEI_AUTO">01</function>
    			</group>
 		</code>
-		<code description="공조 순환 모드 기억"> 
+		<code description="공조 순환 모드 기억">
    			<group id="3000">
     				<function start="0" end="0" mask="00000100b" comment="MEMORY_UMLUFT">01</function>
    			</group>
@@ -5879,7 +5879,7 @@
 				<function start="5" end="5" mask="00000001b" comment="HUD_PIA_BLINKER">01</function>
 			</group>
 		</code>
-		<code description="계기판에 로고 표시"> 
+		<code description="계기판에 로고 표시">
    			<group id="3003">
     				<function start="3" end="3" mask="00000010b" comment="MPM_ENABLE">01</function>
    			</group>
@@ -5888,7 +5888,7 @@
     				<function start="44" end="44" mask="00001111b" comment="BMW_LOGO">mpm_x5</function>
    			</group>
 		</code>
-		<code description="계기판에 나침반 표시"> 
+		<code description="계기판에 나침반 표시">
    			<group id="3003">
     				<function start="12" end="12" mask="00010000b" comment="KOMPASS_GRAPH_ENABLE">01</function>
    			</group>
@@ -5996,7 +5996,7 @@
     				<function start="16" end="16" mask="00000001b" comment="SBR_PreWarning_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고등 삭제"> 
+		<code description="동반자석 안전벨트 경고등 삭제">
    			<group id="3000">
     				<function start="16" end="16" mask="00000010b" comment="SBR_PreWarning_Beifahrer">00</function>
    			</group>
@@ -6006,7 +6006,7 @@
     				<function start="15" end="15" mask="00000010b" comment="SeatBeltReminder_SBR_Fahrer">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고음 삭제"> 
+		<code description="동반자석 안전벨트 경고음 삭제">
    			<group id="3000">
     				<function start="15" end="15" mask="00000100b" comment="SeatBeltReminder_SBR_Beifahrer">00</function>
    			</group>
@@ -6293,12 +6293,12 @@
     				<function start="5" end="5" mask="00010000b" comment="OFF_MEMORY">01</function>
    			</group>
 		</code>
-		<code description="Auto 눌러도 에어컨 안 켜지게"> 
+		<code description="Auto 눌러도 에어컨 안 켜지게">
    			<group id="3000">
     				<function start="5" end="5" mask="00001000b" comment="AC_NICHT_EIN_BEI_AUTO">01</function>
    			</group>
 		</code>
-		<code description="공조 순환 모드 기억"> 
+		<code description="공조 순환 모드 기억">
    			<group id="3000">
     				<function start="0" end="0" mask="00000100b" comment="MEMORY_UMLUFT">01</function>
    			</group>
@@ -6339,7 +6339,7 @@
 				<function start="5" end="5" mask="00000001b" comment="HUD_PIA_BLINKER">01</function>
 			</group>
 		</code>
-		<code description="계기판에 로고 표시"> 
+		<code description="계기판에 로고 표시">
    			<group id="3003">
     				<function start="3" end="3" mask="00000010b" comment="MPM_ENABLE">01</function>
    			</group>
@@ -6348,7 +6348,7 @@
     				<function start="44" end="44" mask="00001111b" comment="BMW_LOGO">mpm_x6</function>
    			</group>
 		</code>
-		<code description="계기판에 나침반 표시"> 
+		<code description="계기판에 나침반 표시">
    			<group id="3003">
     				<function start="12" end="12" mask="00010000b" comment="KOMPASS_GRAPH_ENABLE">01</function>
    			</group>
@@ -6456,7 +6456,7 @@
     				<function start="12" end="12" mask="00000010b" comment="SPW_FA">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고등 삭제"> 
+		<code description="동반자석 안전벨트 경고등 삭제">
    			<group id="3000">
     				<function start="12" end="12" mask="00000010b" comment="SPW_BF">00</function>
    			</group>
@@ -6466,7 +6466,7 @@
     				<function start="11" end="11" mask="00000010b" comment="SBR_FA_GWF_SBR_FA">00</function>
    			</group>
 		</code>
-		<code description="동반자석 안전벨트 경고음 삭제"> 
+		<code description="동반자석 안전벨트 경고음 삭제">
    			<group id="3000">
     				<function start="11" end="11" mask="00000100b" comment="SBR_BF_GWF_SBR_BF">00</function>
    			</group>
@@ -6804,12 +6804,12 @@
     				<function start="5" end="5" mask="00010000b" comment="OFF_MEMORY">01</function>
    			</group>
 		</code>
-		<code description="Auto 눌러도 에어컨 안 켜지게"> 
+		<code description="Auto 눌러도 에어컨 안 켜지게">
    			<group id="3000">
     				<function start="5" end="5" mask="00001000b" comment="AC_NICHT_EIN_BEI_AUTO">01</function>
    			</group>
 		</code>
-		<code description="공조 순환 모드 기억"> 
+		<code description="공조 순환 모드 기억">
    			<group id="3000">
     				<function start="0" end="0" mask="00000100b" comment="MEMORY_UMLUFT">01</function>
    			</group>

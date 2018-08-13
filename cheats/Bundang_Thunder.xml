@@ -5071,12 +5071,12 @@
 				<function start="3" end="3" mask="00100000b" comment="TC_MSA_MEMORY">01</function>
 			</group>
 		</code>
-		<code description="문잠그면 사이드 미러 즉시 접기(락폴딩)">
+		<code description="문잠그면 사이드 미러 즉시 접기(락폴딩) Мгновенная складная дверь (складная складка)">
 			<group id="3003">
 				<function start="12" end="12" mask="11111111b" comment="KMFRT_SCHLIESSEN">00</function>
 			</group>
 		</code>
-		<code description="배터리 용량 변경(90Ah로)">
+		<code description="배터리 용량 변경(90Ah로) Изменение емкости аккумулятора (до 90Ah)">
 			<group id="3702">
 				<function start="0" end="0" mask="11111111b" comment="VCM_BATTERY_CLASS">01</function>
 			</group>
